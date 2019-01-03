@@ -136,7 +136,7 @@ def find_schema(df):
     DATATYPE_MAPPING = {
         "int64": "int",
         "float64": "float",
-        "object": "varchar(20)",
+        "object": "varchar",
         "bool": "bit",
         }
     types = [str(type) for type in df.dtypes]
